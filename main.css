@@ -39,7 +39,7 @@ label {
 }
 
 .section {
-    background-image: linear-gradient(to right, white, rgb(220, 240, 255));
+    background-image: linear-gradient(312deg, rgb(194, 253, 233), rgb(220, 240, 255));
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -63,6 +63,10 @@ label {
 .comps {
     padding:  0.5em 1em;
     font-size: 1.5em;
+}
+
+.comps.active {
+    background-color: gray;
 }
 
 .comps:hover {
