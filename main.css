@@ -39,7 +39,7 @@ label {
 }
 
 .section {
-    background-image: linear-gradient(to bottom right, rgb(194, 253, 233), rgb(220, 240, 255));
+    background-image: linear-gradient(to bottom right, rgb(174, 253, 227), rgb(168, 217, 255));
     display: flex;
     justify-content: center;
     flex-direction: column;
