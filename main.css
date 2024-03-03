@@ -1,0 +1,60 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#root {
+    height: 30vh;
+    width: 100%;
+}
+
+input {
+    font-size: 1.5em;
+    float: right;
+}
+
+label {
+    font-family: Verdana;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.container {
+    background-image: linear-gradient(to right, white, rgb(220, 240, 255));
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    row-gap: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: 100%;
+    width: 100%;
+}
+.show {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+.comps {
+    padding:  0.5em 1em;
+    font-size: 1.5em;
+}
+
+.comps:hover {
+    background-color: gray;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
